@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UtangacPanda">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/pandabg"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/oyunAdi"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/taskagitmakastxt2"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="TextView"
+            android:textSize="30dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/acikgozbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0.5"
+                android:background="#170822"
+                android:text="Gözünü Aç" />
+
+            <Button
+                android:id="@+id/kapaligozbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="0.5"
+                android:background="#170822"
+                android:text="Gözünü Kapat" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="257dp"
+            android:orientation="horizontal">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/pandagif"
+                android:layout_width="215dp"
+                android:layout_height="230dp"
+
+                android:src="@drawable/panda" />
+
+            <ImageView
+                android:id="@+id/kizimg"
+                android:layout_width="wrap_content"
+                android:layout_height="232dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/kapaligoz" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

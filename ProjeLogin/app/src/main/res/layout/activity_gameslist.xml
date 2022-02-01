@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundpref"
+    android:orientation="vertical"
+    android:screenOrientation="portrait"
+    tools:context=".GamesList">
+
+    <include
+        android:id="@+id/mtoolbar"
+        layout="@layout/mtoolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarSize="4sp"
+        android:scrollbarTrackVertical="@color/colorDark"
+        android:scrollbarThumbVertical="@color/colorWhite"
+        android:background="#020202">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/mutluetbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mutluetkapak"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/akillisinifbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/akillisinifkapak2" />
+
+            <Button
+                android:id="@+id/mansetbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mansetkapak2" />
+
+            <Button
+                android:id="@+id/sapkabtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sapkakapak" />
+
+            <Button
+                android:id="@+id/turistbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/turistkapak" />
+
+            <Button
+                android:id="@+id/hayvanbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/hayvankapak" />
+
+            <Button
+                android:id="@+id/filmbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/filmkapak" />
+
+            <Button
+                android:id="@+id/tkmbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tkmkapak" />
+
+            <Button
+                android:id="@+id/pandabtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/pandakapak" />
+
+            <Button
+                android:id="@+id/bukalemunbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bukalemun1" />
+
+            <TextView
+                android:id="@+id/oyun1adi"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="Beni Mutlu Et"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/oyun2adi"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="Akıllı Aletler"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/oyun3adi"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="Gazete Manşetlerini Sen Belirle"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/oyun4adi"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="Seçmen Şapka Güven"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/oyun5adi"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="Nereye Gitsek?"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/oyun6adi"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="Ben Hangi Hayvanım?"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/oyun7adi"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="Film Türünü Tahmin Et"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/oyun8adi"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="Taş Kağıt Makas"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/oyun9adi"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="Utangaç Panda"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/oyun10adi"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="Bukalemun"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/kullaniciaditut"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

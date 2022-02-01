@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Çocuklar İçin Makine Öğrenmesi</string>
+    <string name="t_kla">Giriş</string>
+    <string name="b_lmece">bilmece</string>
+    <string name="parolabosalt"></string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="o_yna">OYNA</string>
+    <string name="kullanıcı_adını_gir">Kullanıcı Adınızı Giriniz</string>
+    <string name="sifreni_gir">Şifrenizi Giriniz</string>
+    <string name="giris_yap">GİRİŞ YAP</string>
+    <string name="kayıt_ol">KAYIT OL</string>
+    <string name="sifreni_tekrar_gir">Şifrenizi Tekrar Giriniz</string>
+    <string name="email_gir">E-Mail Adresinizi Giriniz</string>
+    <string name="textview">TextView</string>
+    <string name="makineye_sor">Makineye Sor</string>
+    <string name="makinenin_cevab">Makinenin cevabı</string>
+    <string name="kodlar_buraya_s_r_kleyiniz">Kodları buraya sürükleyiniz...</string>
+    
+    <string name="ipv4">192.168.1.113</string>
+</resources>

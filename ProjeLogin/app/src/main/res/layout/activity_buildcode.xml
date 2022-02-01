@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/darback"
+    android:orientation="vertical">
+    <include
+        android:id="@+id/mtoolbar"
+        layout="@layout/mtoolbar"></include>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="0.1"
+        android:background="@drawable/buttons"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/sorutxt"
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="0.8"
+            android:autoSizeMaxTextSize="50dp"
+            android:autoSizeTextType="uniform"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="5dp"
+            android:text="TextView"
+            android:textColor="#FC0000" />
+
+        <TextView
+            android:id="@+id/resimtxt"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="0.2"
+            android:autoSizeMaxTextSize="50dp"
+            android:autoSizeTextType="uniform"
+            android:background="@drawable/darwinsoru"
+            android:textColor="@color/design_default_color_primary_dark" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="0.45">
+
+
+        <Button
+            android:id="@+id/Bitirbtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp"
+            android:autoSizeTextType="uniform"
+            android:background="@drawable/darwin_energy"
+            android:textColor="#5ED303"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:id="@+id/resimkoylinear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="2dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="top"
+                android:layout_margin="20dp"
+                android:layout_weight="0.4"
+                android:gravity="bottom"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/secenek1"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="0.2"
+                    android:autoSizeMaxTextSize="20dp"
+                    android:autoSizeMinTextSize="2sp"
+                    android:autoSizeTextType="uniform"
+                    android:background="@drawable/buttton"
+                    android:paddingLeft="8dp"
+                    android:paddingTop="2dp"
+                    android:paddingRight="8dp"
+                    android:paddingBottom="2dp"
+                    android:text="1"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/secenek2"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="0.2"
+                    android:autoSizeMaxTextSize="20dp"
+                    android:autoSizeMinTextSize="2sp"
+                    android:autoSizeTextType="uniform"
+                    android:background="@drawable/buttton"
+                    android:paddingLeft="8dp"
+                    android:paddingTop="2dp"
+                    android:paddingRight="8dp"
+                    android:paddingBottom="2dp"
+                    android:text="2"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/secenek3"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="0.2"
+                    android:autoSizeMaxTextSize="20dp"
+                    android:autoSizeMinTextSize="2sp"
+                    android:autoSizeTextType="uniform"
+                    android:background="@drawable/buttton"
+                    android:paddingLeft="8dp"
+                    android:paddingTop="2dp"
+                    android:paddingRight="8dp"
+                    android:paddingBottom="2dp"
+                    android:text="3"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/secenek4"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="0.2"
+                    android:autoSizeMaxTextSize="20dp"
+                    android:autoSizeMinTextSize="2sp"
+                    android:autoSizeTextType="uniform"
+                    android:background="@drawable/buttton"
+                    android:paddingLeft="8dp"
+                    android:paddingTop="2dp"
+                    android:paddingRight="8dp"
+                    android:paddingBottom="2dp"
+                    android:text="4"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/secenek5"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_weight="0.2"
+                    android:autoSizeMaxTextSize="20dp"
+                    android:autoSizeMinTextSize="2sp"
+                    android:autoSizeTextType="uniform"
+                    android:background="@drawable/buttton"
+                    android:paddingLeft="8dp"
+                    android:paddingTop="2dp"
+                    android:paddingRight="8dp"
+                    android:paddingBottom="2dp"
+                    android:text="5"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:layout_weight="0.4"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/secenek6"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="0.2"
+                    android:autoSizeMaxTextSize="20dp"
+                    android:autoSizeMinTextSize="2sp"
+                    android:autoSizeTextType="uniform"
+                    android:background="@drawable/buttton"
+                    android:paddingLeft="8dp"
+                    android:paddingTop="2dp"
+                    android:paddingRight="8dp"
+                    android:paddingBottom="2dp"
+                    android:text="6"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/secenek7"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="0.2"
+                    android:autoSizeMaxTextSize="20dp"
+                    android:autoSizeMinTextSize="2sp"
+                    android:autoSizeTextType="uniform"
+                    android:background="@drawable/buttton"
+                    android:paddingLeft="8dp"
+                    android:paddingTop="2dp"
+                    android:paddingRight="8dp"
+                    android:paddingBottom="2dp"
+                    android:text="7"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/secenek8"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="0.2"
+                    android:autoSizeMaxTextSize="20dp"
+                    android:autoSizeMinTextSize="2sp"
+                    android:autoSizeTextType="uniform"
+                    android:background="@drawable/buttton"
+                    android:paddingLeft="8dp"
+                    android:paddingTop="2dp"
+                    android:paddingRight="8dp"
+                    android:paddingBottom="2dp"
+                    android:text="8"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/secenek9"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="0.2"
+                    android:autoSizeMaxTextSize="20dp"
+                    android:autoSizeMinTextSize="2sp"
+                    android:autoSizeTextType="uniform"
+                    android:background="@drawable/buttton"
+                    android:paddingLeft="8dp"
+                    android:paddingTop="2dp"
+                    android:paddingRight="8dp"
+                    android:paddingBottom="2dp"
+                    android:text="9"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/secenek10"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_weight="0.2"
+                    android:autoSizeMaxTextSize="20dp"
+                    android:autoSizeMinTextSize="2sp"
+                    android:autoSizeTextType="uniform"
+                    android:background="@drawable/buttton"
+                    android:paddingLeft="8dp"
+                    android:paddingTop="2dp"
+                    android:paddingRight="8dp"
+                    android:paddingBottom="2dp"
+                    android:text="10"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="0.35"
+            android:background="@drawable/buttons"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteY="500dp" >
+            <ScrollView
+                android:id="@+id/kodhavuzulinear"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:fillViewport="false"
+                tools:ignore="UselessParent">
+
+            <TextView
+                android:id="@+id/kodhavuzu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="@string/kodlar_buraya_s_r_kleyiniz"
+                android:textSize="14sp"
+                android:textColor="#FFFFFF"
+                tools:layout_editor_absoluteY="500dp" />
+            </ScrollView>
+        </LinearLayout>
+    <TextView
+        android:id="@+id/kacincikodtut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
+    <TextView
+        android:id="@+id/kacincisorutut"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="invisible" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

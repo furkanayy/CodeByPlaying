@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundpref"
+    android:orientation="vertical"
+    tools:context=".LoginPage">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/mtoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        app:menu="@menu/exit"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="50dp">
+
+        <EditText
+            android:id="@+id/lgnkullanicitxt"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_marginLeft="30dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginRight="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/rounded_edittext"
+            android:ems="9"
+            android:fontFamily="@font/audiowide"
+            android:hint="Kullanıcı Adınızı Giriniz..."
+            android:inputType="textPersonName"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textColorHighlight="#000000"
+            android:textColorHint="#8F8F8F"
+            android:textSize="24sp"
+            android:importantForAutofill="no"/>
+
+        <EditText
+            android:id="@+id/lgnsifretxt"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="30dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_edittext"
+            android:ems="9"
+            android:fontFamily="@font/audiowide"
+            android:hint="Şifrenizi Giriniz..."
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textColorHint="#8F8F8F"
+            android:textSize="24sp"
+            android:importantForAutofill="no"/>
+
+        <Button
+            android:id="@+id/grsbtn"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_1536609_1920"
+            android:fontFamily="@font/audiowide"
+            android:text="@string/giris_yap"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#CACACA"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/kytactivitybtn"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="21dp"
+            android:layout_marginLeft="2dp"
+            android:layout_height="wrap_content"
+            android:text="Henüz Bir Hesabınız Yok Mu?" />
+
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

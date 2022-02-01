@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TuristTahmin">
+
+    <LinearLayout
+        android:id="@+id/turistll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/turistbg"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/oyunAdi"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="TextView"
+            android:background="@drawable/taskagitmakastxt2"
+            android:textColor="#230000"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/Makineedit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="text"
+            android:padding="20dp"
+            android:textColor="#230000" />
+
+        <Button
+            android:id="@+id/Makinebtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:padding="20dp"
+            android:text="Makineye Sor"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="182dp"
+            tools:layout_editor_absoluteY="218dp" />
+
+        <TextView
+            android:id="@+id/Makinetxt"
+            android:layout_width="wrap_content"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/taskagitmakastxt2"
+            android:layout_margin="30dp"
+            android:padding="20dp"
+            android:text="Makinenin cevabı"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

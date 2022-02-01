@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundpref"
+    android:orientation="vertical"
+    android:screenOrientation="portrait"
+    tools:context=".RegisterPage">
+
+    <include
+        android:id="@+id/mtoolbar"
+        layout="@layout/mtoolbar" />
+
+    <EditText
+        android:id="@+id/kullaniciadiedittxt"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/rounded_edittext"
+        android:ems="10"
+        android:fontFamily="@font/audiowide"
+        android:hint="Kullanıcı Adınızı Giriniz..."
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textColorHint="#8F8F8F"
+        android:textSize="24sp"
+        android:importantForAutofill="no"/>
+
+    <EditText
+        android:id="@+id/emailedittxt"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/rounded_edittext"
+        android:ems="10"
+        android:fontFamily="@font/audiowide"
+        android:hint="E-Mail Adresinizi Giriniz..."
+        android:inputType="textEmailAddress"
+        android:textColor="#000000"
+        android:textColorHint="#8F8F8F"
+        android:textSize="24sp"
+        android:importantForAutofill="no"/>
+
+    <EditText
+        android:id="@+id/sifreedittxt"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/rounded_edittext"
+        android:ems="10"
+        android:fontFamily="@font/audiowide"
+        android:hint="Şifrenizi Giriniz..."
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:textColorHint="#8F8F8F"
+        android:textSize="24sp"
+        android:importantForAutofill="no"/>
+
+    <EditText
+        android:id="@+id/sifretekraredittxt"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/rounded_edittext"
+        android:ems="10"
+        android:fontFamily="@font/audiowide"
+        android:hint="Şifrenizi Tekrar Giriniz..."
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:textColorHint="#8F8F8F"
+        android:textSize="24sp"
+        android:importantForAutofill="no"/>
+
+    <Button
+        android:id="@+id/kytolbtn"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_1536609_1920"
+        android:fontFamily="@font/audiowide"
+        android:text="@string/kayıt_ol"
+        android:textColor="#CACACA"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/kayioltxt"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="21dp"
+        android:layout_marginLeft="2dp"
+        android:layout_height="wrap_content"
+        android:text="Zaten bir hesabınız var mı?" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

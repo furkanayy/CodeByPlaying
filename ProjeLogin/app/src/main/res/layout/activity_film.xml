@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FilmTahmin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/filmbg"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/oyunAdi"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/taskagitmakastxt"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="#230000"
+            android:textSize="30dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/animasyonbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#00FFFFFF"
+                app:srcCompat="@drawable/animasyon" />
+
+            <ImageButton
+                android:id="@+id/bilimkurgubtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#00FFFFFF"
+                app:srcCompat="@drawable/bilimkurgu" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/gerilimbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#00FFFFFF"
+                app:srcCompat="@drawable/gerilim" />
+
+            <ImageButton
+                android:id="@+id/romantikbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#00FFFFFF"
+                app:srcCompat="@drawable/romantik" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/gerilim2btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#00FFFFFF"
+                app:srcCompat="@drawable/gerilim2" />
+
+            <ImageButton
+                android:id="@+id/korkubtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#00FFFFFF"
+                app:srcCompat="@drawable/korku" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/Makinetxt"
+            android:layout_width="wrap_content"
+            android:layout_height="160dp"
+            android:background="@drawable/taskagitmakastxt2"
+            android:layout_gravity="center"
+            android:padding="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:paddingLeft="10dp"
+            android:layout_marginRight="30dp"
+            android:text="Makinenin cevabı"
+            android:textColor="#230000"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
